@@ -1,0 +1,13 @@
+{
+	"menu": [
+		{
+			"label": "File",
+			"submenu": [
+				{
+					"label": "Reload Window",
+					"command": "window:reload"
+				}
+			]
+		}
+	]
+}

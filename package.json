@@ -1,0 +1,29 @@
+{
+	"name": "reload-window",
+	"main": "./lib/reload-window",
+	"version": "0.0.0",
+	"description": "Adds a button to the status bar to reload the current window.",
+	"keywords": [
+		"reload",
+		"restart"
+	],
+	"repository": "https://github.com/BrandonXLF/reload-window",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"consumedServices": {
+		"status-bar": {
+			"versions": {
+				"^1.0.0": "consumeStatusBar"
+			}
+		}
+	},
+	"configSchema": {
+		"statusBar": {
+			"description": "Show reload button in the status bar",
+			"type": "boolean",
+			"default": true
+		}
+	}
+}
