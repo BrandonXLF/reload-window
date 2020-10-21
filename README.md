@@ -10,3 +10,6 @@ The clock can be installed through Atom from `File > Settings > Install`. Altern
 * "Reload Window" option in the file menu `File > Reload Window`
 * A reload window button on the right-side of the status bar
 * An option to disable the reload window button in the status bar
+
+## Images
+![preview](media/preview.png)
