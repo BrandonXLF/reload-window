@@ -1,7 +1,7 @@
 {
 	"name": "reload-window",
 	"main": "./lib/reload-window",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Adds a button to the status bar to reload the current window.",
 	"keywords": [
 		"reload",
